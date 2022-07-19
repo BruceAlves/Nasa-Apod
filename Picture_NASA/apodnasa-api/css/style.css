@@ -1,0 +1,219 @@
+body,
+h2,
+h2,
+h4,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "roboto",sans-serif;;
+  color: #000000;
+  background-image: url("../img/thumb-1920-393904.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 30px;
+  background-color: rgb(255, 247, 247);
+}
+
+.img{
+  width: 60px;
+  margin-top: 100;
+}
+
+header {
+   font-family: "Rubik Moonrocks",sans-serif;
+  background: #0c030380;
+  color: #fffdfd;
+  text-align : center  ;
+}
+
+header p {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 3px;
+  padding-bottom: 20px;
+}
+
+main {
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  gap: 40px;
+  place-content: center;
+  place-items: end;
+  margin-top: 20px;
+}
+
+footer {
+  text-align: center;
+}
+
+::selection {
+  background-color: #5eff00;
+}
+
+label {
+  display: block;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.info-title {
+  display: flex;
+  gap: 10px;
+}
+
+.explanation {
+  background: rgba(0, 0, 0, 0.459);
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.explanation p {
+  width: 65ch;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 4.5rem;
+  margin-bottom: 5px;
+  font-family: "Rubik Moonrocks",sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+img {
+  width: 520px;
+  min-height: 400px;
+  border: 1px solid #e0e0e0;
+}
+
+.media {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-items: center;
+}
+
+h2 {
+  font-weight: 300;
+  letter-spacing: 3px;
+  position: relative;
+  font-family: "Rubik Moonrocks",sans-serif;
+  
+}
+
+h2::before {
+  content: "";
+  color: #91ff02;
+  width: 300px;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0);
+  position: absolute;
+  top: 18px;
+
+  left: -320px;
+}
+
+h2::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 15px;
+ 
+  left: -20px;
+}
+
+span {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+h4 {
+  background: rgba(0, 0, 0, 0);
+  color: #5eff00;
+  padding: 0px 2px;
+  font-weight: 300;
+  width: fit-content;
+  margin-top: 4px;
+  font-family: "Rubik Moonrocks",sans-serif;
+}
+
+label {
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+#date {
+  font-family: "Rubik Moonrocks",sans-serif;;
+  background-color: #91ff02;
+  color: rgb(0, 0, 0);
+  border-radius: 3px;
+  border: none;
+  padding: 3px 5px;
+}
+
+#btn {
+  font-family: "Rubik Moonrocks",sans-serif;
+  letter-spacing: 1px;
+  color: #000;
+  border: none;
+  padding: 4px 12px;
+  background-color: #91ff02;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background-color: #448a70;
+}
+
+@media (max-width: 550px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  .explanation p {
+    width: 10ch;
+  }
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 2rem;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  h2 {
+    text-align: center;
+  }
+  h4 {
+    font-size: 1rem;
+    margin: 0 auto;
+  }
+  header p {
+    font-size: 0.4rem;
+  }
+  .explanation p {
+    font-size: 0.70rem;
+  }
+}
